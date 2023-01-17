@@ -4,9 +4,6 @@ import Button from '../components/Button';
 function ButtonPage() {
   return (
     <div>
-      {/*<div>
-        <Button plain>Plain</Button>
-  </div>*/}
       <div>
         <Button primary rounded outline className="mb-5">
           <GoBell />

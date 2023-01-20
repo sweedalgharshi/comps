@@ -111,3 +111,28 @@ function getIcons(label, sortBy, sortOrder) {
 }
 
 export default SortableTable;
+
+// const data = [
+//   {name:'Tomato', cost:'5', weight:'5'},
+//   {name:'Onion', cost:'10', weight:'2'},
+//   {name:'Carrot', cost:'15', weight:'7'}
+// ];
+
+// const sortByValue = (vegetable)=> {
+//   return vegetable.weight;
+// }
+
+// const sortOrder = 'desc'
+
+// data.sort((a, b) => {
+//   const valueA = sortByValue(a);
+//   const valueB = sortByValue(b);
+
+//   const reverseOrder = sortOrder === 'asc' ? 1 : -1
+//   if(typeof valueA === 'string'){
+//     return valueA.localeCompare(valueB) * reverseOrder;
+//   }else{
+//     return (valueA - valueB) * reverseOrder;
+//   }
+
+// })
